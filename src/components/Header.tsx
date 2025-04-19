@@ -10,26 +10,31 @@ const Header = () => {
           <img 
             src="/lovable-uploads/4df3b4ad-020b-4a2a-a78f-dc5a6a81d6e5.png" 
             alt="QuickApp Logo" 
-            className="h-8 w-8"
+            className="h-12 w-12"
           />
-          <span className="text-2xl font-bold bg-gradient-to-r from-[#9B5F5F] to-[#D4A7A7] bg-clip-text text-transparent">
-            QuickApp
-          </span>
         </div>
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#beneficios" className="text-sm font-medium text-gray-600 hover:text-[#9B5F5F] transition-colors">
-            Benefícios
+          <a href="#inicio" className="text-sm font-medium text-gray-600 hover:text-[#33463C] transition-colors">
+            Início
           </a>
-          <a href="#sobre" className="text-sm font-medium text-gray-600 hover:text-[#9B5F5F] transition-colors">
-            Sobre
+          <a href="#funcionalidades" className="text-sm font-medium text-gray-600 hover:text-[#33463C] transition-colors">
+            Funcionalidades
           </a>
-          <a href="#contato" className="text-sm font-medium text-gray-600 hover:text-[#9B5F5F] transition-colors">
+          <a href="#quem-somos" className="text-sm font-medium text-gray-600 hover:text-[#33463C] transition-colors">
+            Quem somos?
+          </a>
+          <a href="#contato" className="text-sm font-medium text-gray-600 hover:text-[#33463C] transition-colors">
             Contato
           </a>
         </nav>
-        <Button className="bg-[#9B5F5F] hover:bg-[#9B5F5F]/90">
-          Começar agora
-        </Button>
+        <div className="flex items-center gap-4">
+          <Button variant="outline" className="border-[#33463C] text-[#33463C] hover:bg-[#33463C] hover:text-white">
+            Sou contratante
+          </Button>
+          <Button className="bg-[#33463C] hover:bg-[#33463C]/90">
+            Sou prestador
+          </Button>
+        </div>
       </div>
     </header>
   );

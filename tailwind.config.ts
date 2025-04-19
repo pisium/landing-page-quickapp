@@ -17,19 +17,15 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          "green": "#9B5F5F", // New primary color from logo
-          "light": "#D4A7A7",
-          "background": "#FFF0F0"
+          DEFAULT: "#33463C",
+          light: "#4C6359",
+          dark: "#1A2B21",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
