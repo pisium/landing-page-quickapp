@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Scissor } from "lucide-react";
+import { ArrowRight, Scissors } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center items-center mb-4">
             <div className="bg-primary-green rounded-full p-4">
-              <Scissor className="h-12 w-12 text-white" />
+              <Scissors className="h-12 w-12 text-white" />
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-8 text-primary-green">
