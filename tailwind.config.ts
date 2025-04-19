@@ -18,7 +18,7 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          "green": "#2E8B57" // seagreen
+          "green": "#00B67A", // Cor verde do Canva
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

@@ -1,12 +1,14 @@
 
 import React from 'react';
 import { Button } from "@/components/ui/button";
+import { Scissor } from "lucide-react";
 
 const Header = () => {
   return (
     <header className="border-b sticky top-0 z-10 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
+          <Scissor className="h-6 w-6 text-primary-green" />
           <span className="text-2xl font-bold bg-gradient-to-r from-primary-green to-emerald-600 bg-clip-text text-transparent">
             QuickApp
           </span>
