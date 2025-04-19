@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -18,7 +17,9 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          "green": "#00B67A", // Cor verde do Canva
+          "green": "#9B5F5F", // New primary color from logo
+          "light": "#D4A7A7",
+          "background": "#FFF0F0"
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
