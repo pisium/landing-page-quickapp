@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -17,15 +18,17 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#33463C",
-          light: "#4C6359",
-          dark: "#1A2B21",
+          "green": "#00B67A", // Cor verde do Canva
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
